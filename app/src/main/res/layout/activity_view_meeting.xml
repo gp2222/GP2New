@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view_meeting">
+
+    <ImageView
+        android:id="@+id/imageView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_lock_power_off"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <Button
+        android:id="@+id/button60"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/editText8"
+        android:layout_toStartOf="@+id/editText8"
+        android:background="@color/colorAccent"
+        android:text="تعديل"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="407dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/button34"
+        android:layout_alignBottom="@+id/button34"
+        android:layout_alignLeft="@+id/imageView4"
+        android:layout_alignStart="@+id/imageView4"
+        android:background="@color/colorAccent"
+        android:text="إضافة"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="282dp"
+        tools:layout_editor_absoluteY="407dp" />
+
+    <EditText
+        android:id="@+id/editText55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView12"
+        android:layout_alignRight="@+id/textView12"
+        android:layout_below="@+id/textView12"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="243dp" />
+
+    <TextView
+        android:id="@+id/textView72"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView11"
+        android:layout_alignRight="@+id/textView11"
+        android:layout_centerVertical="true"
+        android:text="وصف الاجتماع"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="253dp"
+        tools:layout_editor_absoluteY="212dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView12"
+        android:layout_alignRight="@+id/textView12"
+        android:layout_below="@+id/textView12"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="140dp" />
+
+    <TextView
+        android:id="@+id/textView71"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button33"
+        android:layout_alignRight="@+id/button33"
+        android:layout_below="@+id/textView3"
+        android:text="موضوع الاجتماع"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="232dp"
+        tools:layout_editor_absoluteY="106dp" />
+
+    <TextView
+        android:id="@+id/textView70"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="اجتماع 1"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteY="53dp"
+        tools:layout_editor_absoluteX="164dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:background="@color/colorAccent"
+        android:text="حذف"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="407dp" />
+
+</android.support.constraint.ConstraintLayout>

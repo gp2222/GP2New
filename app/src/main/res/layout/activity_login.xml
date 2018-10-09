@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="اسم المستخدم"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="262dp"
+        tools:layout_editor_absoluteY="175dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="كلمة المرور"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="286dp"
+        tools:layout_editor_absoluteY="267dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="تسجيل"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="395dp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberPassword"
+        tools:layout_editor_absoluteY="289dp"
+        tools:layout_editor_absoluteX="153dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="-3dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:text="هل نسيت كلمة المرور"
+        tools:layout_editor_absoluteX="-19dp"
+        tools:layout_editor_absoluteY="461dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:text="التسجيل"
+        tools:layout_editor_absoluteX="299dp"
+        tools:layout_editor_absoluteY="468dp" />
+
+</android.support.constraint.ConstraintLayout>

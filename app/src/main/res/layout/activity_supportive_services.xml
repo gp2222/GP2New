@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".supportive_services">
+
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_lock_power_off"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="2dp" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:background="@color/colorAccent"
+        android:text="عرض مساعد باحث"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="252dp" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:background="@color/colorAccent"
+        android:text="عرض المعدات"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="208dp"
+        tools:layout_editor_absoluteY="324dp" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:background="@color/colorAccent"
+        android:text="عرض ورش العمل"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="324dp" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:background="@color/colorAccent"
+        android:text="عرض الشهادات"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="208dp"
+        tools:layout_editor_absoluteY="404dp" />
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:background="@color/colorAccent"
+        android:text="عرض الاجتماع"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="404dp" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".forgetpass_email">
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_lock_power_off"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="210dp"
+        android:layout_height="100dp"
+        android:text="ادخل البريد الالكتروني الخاص بك لارسال اعادة تعيين كلمة الملرور الخاصة بك "
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <EditText
+        android:id="@+id/editText18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteY="280dp"
+        tools:layout_editor_absoluteX="143dp" />
+
+    <Button
+        android:id="@+id/button32"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:background="@color/colorAccent"
+        android:text="إعادة تعيين كلمة المرور"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="410dp" />
+
+</android.support.constraint.ConstraintLayout>

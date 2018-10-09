@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view_certificate">
+
+    <ImageView
+        android:id="@+id/imageView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_lock_power_off"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="60dp"
+        android:text="شهادة.."
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteY="53dp"
+        tools:layout_editor_absoluteX="280dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="60dp"
+        android:text="شهادة.."
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteY="174dp"
+        tools:layout_editor_absoluteX="280dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="60dp"
+        android:text="شهادة.."
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteY="294dp"
+        tools:layout_editor_absoluteX="280dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="60dp"
+        android:text="شهادة.."
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteY="421dp"
+        tools:layout_editor_absoluteX="280dp" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:background="@color/colorAccent"
+        android:text="طباعة"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="41dp" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:background="@color/colorAccent"
+        android:text="طباعة"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="164dp" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:background="@color/colorAccent"
+        android:text="طباعة"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="286dp" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:background="@color/colorAccent"
+        android:text="طباعة"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="412dp" />
+
+</android.support.constraint.ConstraintLayout>

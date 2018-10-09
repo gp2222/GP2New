@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+    <include layout="@layout/toolbar_layout"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="190dp"
+        android:layout_height="53dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="0dp"
+        android:scaleType="fitEnd"
+        app:srcCompat="@drawable/ksu_masterlogo_colour_rgb" />
+
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView19"
+        android:layout_alignRight="@+id/textView19"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="14dp"
+        android:text="الاسم الأول"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/firstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView13"
+        android:layout_alignEnd="@+id/textView19"
+        android:layout_alignRight="@+id/textView19"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstName"
+        android:layout_alignStart="@+id/textView13"
+        android:layout_alignLeft="@+id/textView13"
+        android:layout_marginTop="14dp"
+        android:text="الاسم الأخير"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView16"
+        android:layout_alignStart="@+id/firstName"
+        android:layout_alignLeft="@+id/firstName"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText10"
+        android:layout_alignEnd="@+id/textView16"
+        android:layout_alignRight="@+id/textView16"
+        android:text="كلمة المرور"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/editText14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView17"
+        android:layout_alignEnd="@+id/textView19"
+        android:layout_alignRight="@+id/textView19"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView17"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:text=" البريد الالكتروني"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        tools:layout_width="150dp" />
+
+    <EditText
+        android:id="@+id/editText15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView19"
+        android:layout_alignEnd="@+id/textView19"
+        android:layout_alignRight="@+id/textView19"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText15"
+        android:layout_alignStart="@+id/editText15"
+        android:layout_alignLeft="@+id/editText15"
+        android:layout_marginTop="35dp"
+        android:background="@color/colorAccent"
+        android:elevation="0dp"
+        android:onClick="bun_register"
+        android:text="تسجيل الدخول"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        tools:ignore="OnClick"
+        tools:layout_width="120dp" />
+
+
+
+
+</RelativeLayout>
+
